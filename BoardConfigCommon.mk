@@ -207,9 +207,6 @@ endif
 # Security patch level
 VENDOR_SECURITY_PATCH := 2024-03-01
 
-# Signing Rom with test keys
-include vendor/lineage-priv/keys/keys.mk
-
 # Sepolicy
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
