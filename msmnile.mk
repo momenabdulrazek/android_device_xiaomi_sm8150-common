@@ -469,6 +469,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/xiaomi
 
+# Signing Rom with test keys
+include vendor/lineage-priv/keys/keys.mk
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
